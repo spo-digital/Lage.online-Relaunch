@@ -52,5 +52,4 @@ build/
 composer.lock
 composer.json
 
-files/Lage/vendors
 files/Lage/styles/vendors
