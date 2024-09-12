@@ -10631,6 +10631,48 @@ textarea.form-control-lg {
 }
 /*** utils ***/
 /*** base ***/
+/* montserrat-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/montserrat-v26-latin-300.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/montserrat-v26-latin-300.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-v26-latin-300.woff2") format("woff2"), url("../fonts/montserrat-v26-latin-300.woff") format("woff"), url("../fonts/montserrat-v26-latin-300.ttf") format("truetype"), url("../fonts/montserrat-v26-latin-300.svg#Montserrat") format("svg"); /* Legacy iOS */
+}
+/* montserrat-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/montserrat-v26-latin-regular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/montserrat-v26-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-v26-latin-regular.woff2") format("woff2"), url("../fonts/montserrat-v26-latin-regular.woff") format("woff"), url("../fonts/montserrat-v26-latin-regular.ttf") format("truetype"), url("../fonts/montserrat-v26-latin-regular.svg#Montserrat") format("svg"); /* Legacy iOS */
+}
+/* montserrat-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/montserrat-v26-latin-500.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/montserrat-v26-latin-500.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-v26-latin-500.woff2") format("woff2"), url("../fonts/montserrat-v26-latin-500.woff") format("woff"), url("../fonts/montserrat-v26-latin-500.ttf") format("truetype"), url("../fonts/montserrat-v26-latin-500.svg#Montserrat") format("svg"); /* Legacy iOS */
+}
+/* montserrat-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/montserrat-v26-latin-700.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/montserrat-v26-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-v26-latin-700.woff2") format("woff2"), url("../fonts/montserrat-v26-latin-700.woff") format("woff"), url("../fonts/montserrat-v26-latin-700.ttf") format("truetype"), url("../fonts/montserrat-v26-latin-700.svg#Montserrat") format("svg"); /* Legacy iOS */
+}
+body {
+  max-width: 120rem;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+}
+
 /*** components ***/
 /*** layouts ***/
 /*** themes ***/
