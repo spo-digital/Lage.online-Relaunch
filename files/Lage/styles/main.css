@@ -1561,7 +1561,7 @@ progress {
     flex: 0 0 auto;
     width: 29.16666667%;
   }
-  .col-lg-8 {
+  .col-lg-8, .rsce_berlin__logo {
     flex: 0 0 auto;
     width: 33.33333333%;
   }
@@ -1593,7 +1593,7 @@ progress {
     flex: 0 0 auto;
     width: 62.5%;
   }
-  .col-lg-16 {
+  .col-lg-16, .rsce_berlin__description {
     flex: 0 0 auto;
     width: 66.66666667%;
   }
@@ -10631,16 +10631,14 @@ textarea.form-control-lg {
 }
 /*** utils ***/
 /*** base ***/
-<<<<<<< HEAD
-=======
 /* montserrat-300 - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 300;
-  src: url("../fonts/montserrat-v26-latin-300.eot"); /* IE9 Compat Modes */
-  src: url("../fonts/montserrat-v26-latin-300.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-v26-latin-300.woff2") format("woff2"), url("../fonts/montserrat-v26-latin-300.woff") format("woff"), url("../fonts/montserrat-v26-latin-300.ttf") format("truetype"), url("../fonts/montserrat-v26-latin-300.svg#Montserrat") format("svg"); /* Legacy iOS */
+  src: url("../fonts/montserrat-v15-latin-300.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/montserrat-v15-latin-300.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-v15-latin-300.woff2") format("woff2"), url("../fonts/montserrat-v15-latin-300.woff") format("woff"), url("../fonts/montserrat-v15-latin-300.ttf") format("truetype"), url("../fonts/montserrat-v15-latin-300.svg#Montserrat") format("svg"); /* Legacy iOS */
 }
 /* montserrat-regular - latin */
 @font-face {
@@ -10648,8 +10646,8 @@ textarea.form-control-lg {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/montserrat-v26-latin-regular.eot"); /* IE9 Compat Modes */
-  src: url("../fonts/montserrat-v26-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-v26-latin-regular.woff2") format("woff2"), url("../fonts/montserrat-v26-latin-regular.woff") format("woff"), url("../fonts/montserrat-v26-latin-regular.ttf") format("truetype"), url("../fonts/montserrat-v26-latin-regular.svg#Montserrat") format("svg"); /* Legacy iOS */
+  src: url("../fonts/montserrat-v15-latin-regular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/montserrat-v15-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-v15-latin-regular.woff2") format("woff2"), url("../fonts/montserrat-v15-latin-regular.woff") format("woff"), url("../fonts/montserrat-v15-latin-regular.ttf") format("truetype"), url("../fonts/montserrat-v15-latin-regular.svg#Montserrat") format("svg"); /* Legacy iOS */
 }
 /* montserrat-500 - latin */
 @font-face {
@@ -10657,8 +10655,8 @@ textarea.form-control-lg {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/montserrat-v26-latin-500.eot"); /* IE9 Compat Modes */
-  src: url("../fonts/montserrat-v26-latin-500.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-v26-latin-500.woff2") format("woff2"), url("../fonts/montserrat-v26-latin-500.woff") format("woff"), url("../fonts/montserrat-v26-latin-500.ttf") format("truetype"), url("../fonts/montserrat-v26-latin-500.svg#Montserrat") format("svg"); /* Legacy iOS */
+  src: url("../fonts/montserrat-v15-latin-500.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/montserrat-v15-latin-500.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-v15-latin-500.woff2") format("woff2"), url("../fonts/montserrat-v15-latin-500.woff") format("woff"), url("../fonts/montserrat-v15-latin-500.ttf") format("truetype"), url("../fonts/montserrat-v15-latin-500.svg#Montserrat") format("svg"); /* Legacy iOS */
 }
 /* montserrat-700 - latin */
 @font-face {
@@ -10666,10 +10664,9 @@ textarea.form-control-lg {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/montserrat-v26-latin-700.eot"); /* IE9 Compat Modes */
-  src: url("../fonts/montserrat-v26-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-v26-latin-700.woff2") format("woff2"), url("../fonts/montserrat-v26-latin-700.woff") format("woff"), url("../fonts/montserrat-v26-latin-700.ttf") format("truetype"), url("../fonts/montserrat-v26-latin-700.svg#Montserrat") format("svg"); /* Legacy iOS */
+  src: url("../fonts/montserrat-v15-latin-700.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/montserrat-v15-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-v15-latin-700.woff2") format("woff2"), url("../fonts/montserrat-v15-latin-700.woff") format("woff"), url("../fonts/montserrat-v15-latin-700.ttf") format("truetype"), url("../fonts/montserrat-v15-latin-700.svg#Montserrat") format("svg"); /* Legacy iOS */
 }
->>>>>>> b2890706ead37533c62b611d50b8f533633bf685
 body {
   max-width: 120rem;
   margin: 0 auto;
@@ -10677,6 +10674,57 @@ body {
 }
 
 /*** components ***/
+.rsce_berlin {
+  background-image: url("../../../files/Lage/images/Verein/Halle 1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rsce_berlin__description {
+  color: #fff;
+  background-color: rgba(65, 65, 65, 0.7);
+}
+.rsce_berlin__description h1, .rsce_berlin__description .h1 {
+  font-weight: 700;
+}
+@media (min-width: 992px) {
+  .rsce_berlin__description {
+    padding-top: 18.75rem;
+    padding-left: 6.25rem;
+    padding-right: 6.25rem;
+    padding-bottom: 9.375rem;
+  }
+  .rsce_berlin__description h1, .rsce_berlin__description .h1 {
+    margin-bottom: 0.625rem;
+    font-size: 3.75rem;
+  }
+  .rsce_berlin__description p {
+    font-size: 1.625rem;
+  }
+}
+@media (min-width: 1400px) {
+  .rsce_berlin__description h1, .rsce_berlin__description .h1 {
+    font-size: 5rem;
+  }
+  .rsce_berlin__description p {
+    font-size: 2.25rem;
+  }
+}
+@media (min-width: 992px) {
+  .rsce_berlin__logo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+}
+@media (min-width: 992px) {
+  .rsce_berlin__logo_container {
+    padding: 3.125rem;
+    background-color: #F8F8F8;
+    box-shadow: 12px 12px 5px 0 rgba(0, 0, 0, 0.25);
+  }
+}
+
 /*** layouts ***/
 /*** themes ***/
 /*** pages ***/

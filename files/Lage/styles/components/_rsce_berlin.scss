@@ -1,5 +1,51 @@
 .rsce_berlin {
-  &__container {
-    position: relative;
+  background-image: url("../../../files/Lage/images/Verein/Halle 1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &__description {
+    color: #fff;
+    background-color: rgba(65, 65, 65, .7 );
+    h1 {
+      font-weight: 700;
+    }
+    @include media-breakpoint-up( lg ) {
+      @extend .col-lg-16;
+      h1 {
+        margin-bottom: rem-calc( 10px );
+        font-size: rem-calc( 60px );
+      }
+      p {
+        font-size: rem-calc( 26px );
+      }
+      padding-top: rem-calc( 300px );
+      padding-left: rem-calc( 100px );
+      padding-right: rem-calc( 100px );
+      padding-bottom: rem-calc( 150px );
+    }
+    @include media-breakpoint-up( xxl ) {
+      h1 {
+        font-size: rem-calc( 80px );
+      }
+      p {
+        font-size: rem-calc( 36px );
+      }
+    }
+  }
+
+  &__logo {
+    @include media-breakpoint-up( lg ) {
+      @extend .col-lg-8;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+    }
+  }
+  &__logo_container {
+    @include media-breakpoint-up( lg ) {
+      padding: rem-calc( 50px );
+      background-color: #F8F8F8;
+      box-shadow: 12px 12px 5px 0 rgba( 0, 0, 0, 0.25 );
+    }
   }
 }

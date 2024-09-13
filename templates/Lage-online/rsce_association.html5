@@ -9,21 +9,22 @@
     >
   <?php endif; ?>
   <div class="rsce_berlin">
-    <div class="rsce_berlin__bkg">
-      <img src="files/Lage/images/Verein/Halle 1.jpg" alt="Backgroung">
-    </div>
     <div class="rsce_berlin__container">
-      <div class="rsce_berlin__description">
-        <h1 class="">
-          TuS Ehrentrup e.V.
-        </h1>
-        <p>Pivitsheider Strasse 103, 32791 Lage/Lippe</p>
-        <p>Telefon:</p>
-        <p>www.tusehrentrup.info</p>
-        <p>tusehrentrup@web.de</p>
-      </div>
-      <div class="rsce_berlin__logo">
-        <img src="files/Lage/images/Verein/tus-ehrentrup_logo_platzhalter 1.png" alt="Logo">
+      <div class="row">
+        <div class="rsce_berlin__description">
+          <h1 class="">
+            TuS Ehrentrup e.V.
+          </h1>
+          <p>Pivitsheider Strasse 103, 32791 Lage/Lippe</p>
+          <p>Telefon:</p>
+          <p>www.tusehrentrup.info</p>
+          <p>tusehrentrup@web.de</p>
+        </div>
+        <div class="rsce_berlin__logo">
+          <div class="rsce_berlin__logo_container">
+            <img src="files/Lage/images/Verein/tus-ehrentrup_logo_platzhalter 1.png" alt="Logo">
+          </div>
+        </div>
       </div>
     </div>
   </div>
