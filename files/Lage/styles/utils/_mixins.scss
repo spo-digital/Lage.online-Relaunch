@@ -1,0 +1,17 @@
+@mixin main_btn {
+  display: block;
+  width: fit-content;
+  width: -webkit-fit-content;
+  font-size: rem-calc( 24px );
+  font-weight: 300;
+  color: #fff;
+  background-color: #414141;
+  text-decoration: none;
+  padding: rem-calc( 15px ) rem-calc( 25px );
+  transition-duration: .3s;
+
+  &:hover {
+    background-color: #b5b5b5;
+    transition-duration: .3s;
+  }
+}
