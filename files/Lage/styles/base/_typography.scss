@@ -1,0 +1,21 @@
+@mixin main_h2 {
+  margin-bottom: rem-calc( 30px );
+  font-size: rem-calc( 32px );
+  font-weight: 700;
+  color: #414141;
+  //text-align: center;
+  @include media-breakpoint-up( lg ) {
+    margin-bottom: rem-calc( 65px );
+    font-size: rem-calc( 64px );
+  }
+}
+
+@mixin main_h3 {
+  margin-bottom: rem-calc( 10px );
+  font-size: rem-calc( 24px );
+  font-weight: 700;
+  @include media-breakpoint-up( lg ) {
+    font-size: rem-calc( 32px );
+    color: #414141;
+  }
+}
