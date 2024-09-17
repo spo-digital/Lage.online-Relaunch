@@ -1,0 +1,118 @@
+.rsce_sofia {
+  margin-bottom: rem-calc( 50px );
+  @include media-breakpoint-up( lg ) {
+    margin-bottom: rem-calc( 100px );
+  }
+  &__container {
+    @extend .container;
+  }
+
+  &__row {
+    @extend .row;
+  }
+
+  &__col {
+    @extend .col-24;
+    @extend .col-md-16;
+    @extend .col-lg-16;
+    display: flex;
+    flex-wrap: wrap;
+    @include media-breakpoint-up( lg ) {
+      padding-right: rem-calc( 100px );
+    }
+    &:last-child {
+      @extend .col-24;
+      @extend .col-md-8;
+      @extend .col-lg-8;
+      @include media-breakpoint-up( lg ) {
+        padding-right: 0;
+        padding-left: rem-calc( 100px );
+        border-left: rem-calc( 1px ) solid #414141;
+      }
+    }
+  }
+
+
+  &__title {
+    @include main_h2;
+  }
+
+
+  &__item {
+    flex: 0 0 auto;
+    width: 50%;
+    margin-bottom: rem-calc( 30px );
+    padding-bottom: rem-calc( 30px );
+    border-bottom: rem-calc( 1px ) solid black;
+    &:nth-child( odd ) {
+      .rsce_sofia__item_text {
+        padding-right: rem-calc( 10px );
+        padding-left: 0;
+        @include media-breakpoint-down( md ) {
+          border-right: rem-calc( 1px ) solid #414141;
+        }
+      }
+    }
+
+    &:nth-child( even ) {
+      .rsce_sofia__item_text {
+        padding-left: rem-calc( 10px );
+        padding-right: 0;
+      }
+    }
+
+    &_text {
+      height: 100%;
+      box-sizing: border-box;
+    }
+    h3 {
+      @include main_h3;
+      @include media-breakpoint-down( lg ) {
+        font-size: rem-calc( 20px );
+      }
+    }
+    @include media-breakpoint-up( md ) {
+      flex: 0 0 auto;
+      width: 50%;
+      padding-bottom: rem-calc( 60px );
+      &:nth-child( odd ) {
+        padding-right: 0;
+      }
+      &:nth-child( even ) {
+        padding-left: 0;
+      }
+
+      &:last-child, &:nth-last-child( 2 ) {
+        border-bottom: none;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__news {
+    img {
+      margin-bottom: rem-calc( 30px ) ;
+      @include media-breakpoint-down( md ) {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+      }
+    }
+
+    h3 {
+      font-size: rem-calc( 40px );
+      font-weight: 700;
+      color: #000;
+    }
+
+    p {
+      margin-bottom: rem-calc( 30px );
+    }
+
+    a {
+      @include main_btn;
+    }
+  }
+}
+
+
