@@ -11,7 +11,7 @@
   <div class="rsce_berlin">
     <div class="rsce_berlin__container">
       <div class="row">
-        <div class="rsce_berlin__description">
+        <div class="rsce_berlin__description wow slideInLeft" data-wow-duration="1.3s" data-wow-delay="1s">
           <h1 class="">
             TuS Ehrentrup e.V.
           </h1>
@@ -28,4 +28,297 @@
       </div>
     </div>
   </div>
+  <div class="rsce_paris">
+    <div class="rsce_paris__container">
+      <h2 class="rsce_paris__title">Unser Angebot</h2>
+      <div class="rsce_paris__row">
+        <div class="rsce_paris__col">
+          <div class="rsce_paris__item" data-category="tennis">
+            <img src="files/Lage/images/Verein/Ebene 2.jpg" alt="Logo">
+            <h3>Tennis</h3>
+          </div>
+        </div>
+        <div class="rsce_paris__col">
+          <div class="rsce_paris__item" data-category="turnen">
+            <img src="files/Lage/images/Verein/Ebene 3.jpg" alt="Logo">
+            <h3>Turnen</h3>
+          </div>
+        </div>
+        <div class="rsce_paris__col">
+          <div class="rsce_paris__item" data-category="tanz">
+            <img src="files/Lage/images/Verein/Ebene 4.jpg" alt="Logo">
+            <h3>Mädchentanz</h3>
+          </div>
+        </div>
+        <div class="rsce_paris__col">
+          <div class="rsce_paris__item" data-category="boule">
+            <img src="files/Lage/images/Verein/Ebene 5.jpg" alt="Logo">
+            <h3>Boule</h3>
+          </div>
+        </div>
+        <div class="rsce_paris__col">
+          <div class="rsce_paris__item" data-category="darts">
+            <img src="files/Lage/images/Verein/Ebene 6.jpg" alt="Logo">
+            <h3>Darts</h3>
+          </div>
+        </div>
+        <div class="rsce_paris__col">
+          <div class="rsce_paris__item" data-category="nordic">
+            <img src="files/Lage/images/Verein/Ebene 7.jpg" alt="Logo">
+            <h3>Nordic Walking</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="rsce_london" id="tennis">
+    <div class="rsce_london__container">
+      <div class="rsce_london__row">
+        <div class="rsce_london__col">
+          <div class="rsce_london__text">
+            <h2>Tennis</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus bibendum accumsan. Aenean quis gravida lectus. Integer blandit sodales urna, sit amet egestas velit. Nunc dictum eleifend blandit. Morbi venenatis venenatis purus in lobortis. Etiam vulputate nibh vitae congue dapibus. Donec elementum nulla quis placerat dapibus. Sed vel eros sed sapien facilisis congue. Sed suscipit varius gravida. Donec in nibh at sapien varius fermentum ut scelerisque lectus. Suspendisse potenti. Sed vel faucibus dui. Duis vel dolor in nisi vestibulum auctor. </p>
+          </div>
+        </div>
+        <div class="rsce_london__col">
+          <div class="rsce_london__image">
+            <img src="files/Lage/images/Verein/Ebene 11.jpg" alt="Ebene11">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="rsce_london rsce_london--gray" id="turnen">
+    <div class="rsce_london__container">
+      <div class="rsce_london__row">
+        <div class="rsce_london__col">
+          <div class="rsce_london__text">
+            <h2>Textbeschreibung vom Verein</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus bibendum accumsan. Aenean quis gravida lectus. Integer blandit sodales urna, sit amet egestas velit. Nunc dictum eleifend blandit. Morbi venenatis venenatis purus in lobortis. Etiam vulputate nibh vitae congue dapibus. Donec elementum nulla quis placerat dapibus. Sed vel eros sed sapien facilisis congue. Sed suscipit varius gravida. Donec in nibh at sapien varius fermentum ut scelerisque lectus. Suspendisse potenti. Sed vel faucibus dui. Duis vel dolor in nisi vestibulum auctor. </p>
+          </div>
+        </div>
+        <div class="rsce_london__col">
+          <div class="rsce_london__image">
+            <img src="files/Lage/images/Verein/Ebene 11.jpg" alt="Ebene11">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="rsce_london" id="tanz">
+    <div class="rsce_london__container">
+      <div class="rsce_london__row">
+        <div class="rsce_london__col">
+          <div class="rsce_london__text">
+            <h2>Textbeschreibung vom Verein</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus bibendum accumsan. Aenean quis gravida lectus. Integer blandit sodales urna, sit amet egestas velit. Nunc dictum eleifend blandit. Morbi venenatis venenatis purus in lobortis. Etiam vulputate nibh vitae congue dapibus. Donec elementum nulla quis placerat dapibus. Sed vel eros sed sapien facilisis congue. Sed suscipit varius gravida. Donec in nibh at sapien varius fermentum ut scelerisque lectus. Suspendisse potenti. Sed vel faucibus dui. Duis vel dolor in nisi vestibulum auctor. </p>
+          </div>
+        </div>
+        <div class="rsce_london__col">
+          <div class="rsce_london__image">
+            <img src="files/Lage/images/Verein/Ebene 11.jpg" alt="Ebene11">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="rsce_london rsce_london--gray" id="boule">
+    <div class="rsce_london__container">
+      <div class="rsce_london__row">
+        <div class="rsce_london__col">
+          <div class="rsce_london__text">
+            <h2>Textbeschreibung vom Verein</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus bibendum accumsan. Aenean quis gravida lectus. Integer blandit sodales urna, sit amet egestas velit. Nunc dictum eleifend blandit. Morbi venenatis venenatis purus in lobortis. Etiam vulputate nibh vitae congue dapibus. Donec elementum nulla quis placerat dapibus. Sed vel eros sed sapien facilisis congue. Sed suscipit varius gravida. Donec in nibh at sapien varius fermentum ut scelerisque lectus. Suspendisse potenti. Sed vel faucibus dui. Duis vel dolor in nisi vestibulum auctor. </p>
+          </div>
+        </div>
+        <div class="rsce_london__col">
+          <div class="rsce_london__image">
+            <img src="files/Lage/images/Verein/Ebene 11.jpg" alt="Ebene11">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="rsce_london" id="darts">
+    <div class="rsce_london__container">
+      <div class="rsce_london__row">
+        <div class="rsce_london__col">
+          <div class="rsce_london__text">
+            <h2>Textbeschreibung vom Verein</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus bibendum accumsan. Aenean quis gravida lectus. Integer blandit sodales urna, sit amet egestas velit. Nunc dictum eleifend blandit. Morbi venenatis venenatis purus in lobortis. Etiam vulputate nibh vitae congue dapibus. Donec elementum nulla quis placerat dapibus. Sed vel eros sed sapien facilisis congue. Sed suscipit varius gravida. Donec in nibh at sapien varius fermentum ut scelerisque lectus. Suspendisse potenti. Sed vel faucibus dui. Duis vel dolor in nisi vestibulum auctor. </p>
+          </div>
+        </div>
+        <div class="rsce_london__col">
+          <div class="rsce_london__image">
+            <img src="files/Lage/images/Verein/Ebene 11.jpg" alt="Ebene11">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="rsce_london rsce_london--gray" id="nordic">
+    <div class="rsce_london__container">
+      <div class="rsce_london__row">
+        <div class="rsce_london__col">
+          <div class="rsce_london__text">
+            <h2>Textbeschreibung vom Verein</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus bibendum accumsan. Aenean quis gravida lectus. Integer blandit sodales urna, sit amet egestas velit. Nunc dictum eleifend blandit. Morbi venenatis venenatis purus in lobortis. Etiam vulputate nibh vitae congue dapibus. Donec elementum nulla quis placerat dapibus. Sed vel eros sed sapien facilisis congue. Sed suscipit varius gravida. Donec in nibh at sapien varius fermentum ut scelerisque lectus. Suspendisse potenti. Sed vel faucibus dui. Duis vel dolor in nisi vestibulum auctor. </p>
+          </div>
+        </div>
+        <div class="rsce_london__col">
+          <div class="rsce_london__image">
+            <img src="files/Lage/images/Verein/Ebene 11.jpg" alt="Ebene11">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="rsce_london rsce_london--gray d-block" id="">
+    <div class="rsce_london__container">
+      <div class="rsce_london__row">
+        <div class="rsce_london__col">
+          <div class="rsce_london__text">
+            <h2>Textbeschreibung vom Verein</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus bibendum accumsan. Aenean quis gravida lectus. Integer blandit sodales urna, sit amet egestas velit. Nunc dictum eleifend blandit. Morbi venenatis venenatis purus in lobortis. Etiam vulputate nibh vitae congue dapibus. Donec elementum nulla quis placerat dapibus. Sed vel eros sed sapien facilisis congue. Sed suscipit varius gravida. Donec in nibh at sapien varius fermentum ut scelerisque lectus. Suspendisse potenti. Sed vel faucibus dui. Duis vel dolor in nisi vestibulum auctor. </p>
+          </div>
+        </div>
+        <div class="rsce_london__col">
+          <div class="rsce_london__image">
+            <img src="files/Lage/images/Verein/Ebene 11.jpg" alt="Ebene11">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="rsce_sofia">
+    <div class="rsce_sofia__container">
+      <div class="rsce_sofia__row">
+        <h2 class="rsce_sofia__title">Trainingszeiten</h2>
+        <div class="rsce_sofia__col">
+          <div class="rsce_sofia__item">
+            <div class="rsce_sofia__item_text">
+              <h3>Tennis</h3>
+              <p>jeden Mittwoch,</p>
+              <p>15:00–16:00 Uhr</p>
+              <p>Pivitsheider Str. 104, Lage</p>
+            </div>
+          </div>
+          <div class="rsce_sofia__item">
+            <div class="rsce_sofia__item_text">
+              <h3>Boule</h3>
+              <p>jeden Mittwoch,</p>
+              <p>17:00 Uhr, im Sommer ab 15 Uhr</p>
+              <p>Pivitsheider Str. 104, Lage</p>
+            </div>
+          </div>
+          <div class="rsce_sofia__item">
+            <div class="rsce_sofia__item_text">
+              <h3>Turnen</h3>
+              <p>jeden Donnerstag,</p>
+              <p>16:00–18:00 Uhr</p>
+              <p>Pivitsheider Str. 104, Lage</p>
+            </div>
+          </div>
+          <div class="rsce_sofia__item">
+            <div class="rsce_sofia__item_text">
+              <h3>Darts</h3>
+              <p>jeden Mittwoch,</p>
+              <p>15:00–16:00 Uhr</p>
+              <p>Pivitsheider Str. 104, Lage</p>
+            </div>
+          </div>
+          <div class="rsce_sofia__item">
+            <div class="rsce_sofia__item_text">
+              <h3>Mädchentanz</h3>
+              <p>jeden Mittwoch,</p>
+              <p>18:00–19:00 Uhr</p>
+              <p>Pivitsheider Str. 104, Lage</p>
+            </div>
+          </div>
+          <div class="rsce_sofia__item">
+            <div class="rsce_sofia__item_text">
+              <h3>Nordic Walking</h3>
+              <p>jeden Mittwoch und Freitag</p>
+              <p>9:30 Uhr</p>
+              <p>Pivitsheider Str. 104, Lage</p>
+            </div>
+          </div>
+        </div>
+        <div class="rsce_sofia__col">
+          <div class="rsce_sofia__news">
+            <img src="files/Lage/images/Verein/news.png" alt="Logo">
+            <h3>Aktuelles</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus bibendum.</p>
+            <a href="#">Mehr lesen</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="rsce_copenhagen">
+    <div class="rsce_copenhagen__container">
+      <h2 class="rsce_copenhagen__title">Ansprechpartner</h2>
+      <div class="rsce_copenhagen__row">
+        <div class="rsce_copenhagen__col">
+          <div class="rsce_copenhagen__item">
+            <img src="files/Lage/images/Verein/Vieregge 1.jpg" alt="">
+            <div class="rsce_copenhagen__item_text">
+              <h3>Leitung Tennisabteilung</h3>
+              <p>Hans Vieregge</p>
+              <p>05232 63214</p>
+              <p>0151 65114120</p>
+              <a href="#">hvieregge@web.de</a>
+            </div>
+          </div>
+        </div>
+        <div class="rsce_copenhagen__col">
+          <div class="rsce_copenhagen__item">
+            <img src="files/Lage/images/Verein/Lilia-Klassen1_JPG.jpg" alt="">
+            <div class="rsce_copenhagen__item_text">
+              <h3>Leitung Turnabteilung</h3>
+              <p>Lilia Klassen</p>
+              <p>52 32 / 97 93 94</p>
+              <p>01525655782</p>
+              <a href="#">klassenlilia@gmail.com</a>
+            </div>
+          </div>
+        </div>
+        <div class="rsce_copenhagen__col">
+          <div class="rsce_copenhagen__item">
+            <img src="files/Lage/images/Verein/Harald16_03_2011_JPG 1.jpg" alt="">
+            <div class="rsce_copenhagen__item_text">
+              <h3>Leitung Nordic-Walking, Boule + Darts</h3>
+              <p>Hans Vieregge</p>
+              <p>52 32 / 62 36 0</p>
+              <a href="#">hfleiter@arcor.de</a>
+            </div>
+          </div>
+        </div>
+        <div class="rsce_copenhagen__col">
+          <div class="rsce_copenhagen__item">
+            <img src="files/Lage/images/Verein/Rectangle 8.png" alt="">
+            <div class="rsce_copenhagen__item_text">
+              <h3>Leitung Tanzen</h3>
+              <p> Olga Malzew-Flohr</p>
+              <p>+49 176 80160316</p>
+              <a href="#">fresh-funky@gmx.de</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
+
