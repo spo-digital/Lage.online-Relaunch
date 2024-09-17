@@ -6,13 +6,10 @@ $grid-columns: 24;
 
 
 /*** vendors ***/
-@import
-	"vendors/bootstrap/scss/bootstrap";
+@import "vendors/bootstrap/scss/bootstrap";
+@import "vendors/animate/animate";
 
 	//"vendors/hamburgers/hamburgers";
-
-
-
 
 /*** utils ***/
 @import
@@ -33,6 +30,12 @@ $grid-columns: 24;
 /*** components ***/
 @import "components/rsce_association";
 @import "components/rsce_berlin";
+@import "components/rsce_paris";
+@import "components/rsce_london";
+@import "components/rsce_sofia";
+@import "components/rsce_copenhagen";
+
+
 /*** layouts ***/
 @import
 	"layout/header",
